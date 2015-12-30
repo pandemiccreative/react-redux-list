@@ -1,4 +1,6 @@
-import HelloWorld from './components/HelloWorld.jsx';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import List from './components/List.jsx';
 import './less/core.less';
 
-document.write(HelloWorld);
+ReactDOM.render(<List />, document.querySelector('.ingredients'));

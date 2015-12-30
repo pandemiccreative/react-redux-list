@@ -1,5 +1,5 @@
 let Fetch = require('whatwg-fetch');
-let baseUrl = 'http://localhost:6060';
+let baseUrl = 'http://localhost:6069';
 
 let service = {
   get: function(url){
@@ -10,4 +10,4 @@ let service = {
   }
 }
 
-export default service;
+module.exports = service;
